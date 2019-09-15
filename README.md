@@ -91,11 +91,14 @@ mkdir build && cd build
 # create the makefile
 cmake -DMONERO_DIR=~/ombre ..
 
-# also can build with ASAN (sanitizers), for example
+# build with ASAN (sanitizers)
 cmake -DSANITIZE_ADDRESS=On ..
 
 # compile
 make
+
+#if perfered you can make with multipul threads like
+make -j4 (for 4 threads) or make -j8 (for 8 threads)
 ```
 
 
