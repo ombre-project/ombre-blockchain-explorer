@@ -80,10 +80,10 @@ as follows:
 cd ~
 
 # download the source code
-git clone https://github.com/ombre-project/ombre-explorer
+git clone https://github.com/ombre-project/ombre-blockchain-explorer
 
 # enter the downloaded sourced code folder
-cd ombre-explorer
+cd ombre-blockchain-explorer
 
 # make a build folder and enter it
 mkdir build && cd build
